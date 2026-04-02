@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build Guild — Hack Club Hardware Meetup</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-canvas" id="gridCanvas"></div>
+
+<div class="page">
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">BUILD<span>GUILD</span></a>
+    <ul class="nav-links">
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#parents">Parents</a></li>
+      <!-- ✏️ EDIT: set your apply form URL -->
+      <li><a class="apply" href="https://blueprint.hackclub.com/guilds/invite/amalapuram" target="_blank" rel="noopener">Apply ↗</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <!-- ✏️ EDIT: tagline & meta -->
+    <p class="eyebrow">Hack Club · 1-Day Hardware Meetup · April 18</p>
+    <h1 class="hero-title">Solder. Build.<br><span class="dim">Ship real</span><br>hardware.</h1>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Date</span>
+        <span class="meta-value">April 18, 2026</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Age</span>
+        <span class="meta-value">13–18</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Cost</span>
+        <span class="meta-value">₹0 — Free</span>
+      </div>
+    </div>
+    <div class="cta-row">
+      <!-- ✏️ EDIT: set your apply form URL -->
+      <a class="btn-primary" href="https://blueprint.hackclub.com/guilds/invite/amalapuram" target="_blank" rel="noopener">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- WHAT IS THIS -->
+  <section class="what-section">
+    <div class="what-left">
+      <p class="what-eyebrow">— What is this?</p>
+      <!-- ✏️ EDIT: description -->
+      <h2 class="what-title">Hack Club's 1-day hardware meetup.</h2>
+      <p class="what-body">Running April 18 in cities across the world. Every guild is organized by a local teen — and Hack Club funds the whole thing.</p>
+    </div>
+    <div class="what-right">
+      <!-- ✏️ EDIT: key stats -->
+      <div class="what-stat">
+        <span class="what-num">100+</span>
+        <div>
+          <div class="what-stat-title">Cities Worldwide</div>
+          <div class="what-stat-sub">Running simultaneously April 18</div>
+        </div>
+      </div>
+      <div class="what-stat">
+        <span class="what-num">13–18</span>
+        <div>
+          <div class="what-stat-title">Age range</div>
+          <div class="what-stat-sub">No experience needed</div>
+        </div>
+      </div>
+      <div class="what-stat">
+        <span class="what-num">₹0</span>
+        <div>
+          <div class="what-stat-title">Cost to attend</div>
+          <div class="what-stat-sub">Food, venue &amp; materials covered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
+    <div class="faq-left">
+      <p class="faq-eyebrow">— FAQ</p>
+      <h2 class="faq-big-title">Got questions?</h2>
+      <p class="faq-subtitle">Everything you need to know. Still not sure? Come say hi on Slack.</p>
+      <!-- ✏️ EDIT: Slack channel link & name -->
+      <a class="faq-slack" href="#">#build-guild-amalapuram →</a>
+    </div>
+    <div class="faq-list">
+      <!-- ✏️ EDIT: FAQ items -->
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">What is Build Guild?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a">A 1-day hardware meetup for teens, run by local Hack Clubbers. You'll solder, build, and ship real projects alongside fellow makers in your city.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Is it really free?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a">Completely. Hack Club funds per attendee — covering the venue, food, and materials. You pay nothing, ever.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Do I need hardware experience?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a">Not at all. We'll walk you through everything from scratch. If you've never touched a soldering iron, that's totally fine — most people haven't.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Who can attend?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a">Anyone aged 13–18. You don't need to be a Hack Club member — just a curious teen who wants to build things.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">What is Hack Club Blueprint?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a">Blueprint is a program by Hack Club — a nonprofit with 50,000+ teen makers globally. It gives teens hardware parts, build guidance, and grants up to $400.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE TIMELINE -->
+  <section class="section" id="schedule">
+    <div class="section-header">
+      <h2 class="section-title">Day Schedule</h2>
+      <span class="section-num">01</span>
+    </div>
+    <div class="timeline">
+      <!-- ✏️ EDIT: timeline items -->
+      <div class="tl-item first">
+        <span class="tl-time">9:00 AM</span>
+        <div class="tl-line"><div class="tl-dot filled"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Arrival &amp; Check-in</div>
+          <div class="tl-desc">Grab your badge, meet fellow builders</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">9:30 AM</span>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Kickoff &amp; Welcome</div>
+          <div class="tl-desc">Introductions and venue tour</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">10:00 AM</span>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Soldering 101</div>
+          <div class="tl-desc">Beginner-friendly intro to soldering — get hands-on from the start</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">12:30 PM</span>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Lunch Break</div>
+          <div class="tl-desc">Free food, sponsored by Hack Club</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">1:30 PM</span>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Soldering Marathon &amp; Events</div>
+          <div class="tl-desc">Compete, create, and have fun with fellow makers</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">3:30 PM</span>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-track"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Project Demos &amp; Lightning Talks</div>
+          <div class="tl-desc">Show what you built, win prizes</div>
+        </div>
+      </div>
+      <div class="tl-item last">
+        <span class="tl-time">5:00 PM</span>
+        <div class="tl-line"><div class="tl-dot"></div></div>
+        <div class="tl-content">
+          <div class="tl-title">Closing &amp; Group Photo</div>
+          <div class="tl-desc">Wrap up and a photo to remember</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARENTS SECTION -->
+  <section class="section" id="parents" style="padding-bottom: 0;">
+    <div class="section-header">
+      <h2 class="section-title">For parents</h2>
+      <span class="section-num">02</span>
+    </div>
+    <div class="parents-section">
+      <div class="parents-header">
+        <span class="parents-emoji">😅</span>
+        <h3 class="parents-title">Worried your parents won't<br><span class="accent">let you come?</span></h3>
+        <p class="parents-subtitle">No stress. We get it — parents have questions, and that's totally fair. Put them on a call with us and we'll answer everything honestly. No BS, no pressure. We just want you there.</p>
+      </div>
+      <div class="trust-grid">
+        <!-- ✏️ EDIT: trust signal cards -->
+        <div class="trust-card">
+          <div class="trust-icon">🛡</div>
+          <div>
+            <div class="trust-name">Backed by Hack Club</div>
+            <div class="trust-desc">Hack Club is a US-registered nonprofit that has run hundreds of events for teens globally.</div>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">📋</div>
+          <div>
+            <div class="trust-name">Parental consent form</div>
+            <div class="trust-desc">We'll send a consent form beforehand. Parents can review everything before signing off.</div>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">👥</div>
+          <div>
+            <div class="trust-name">Organised by your community</div>
+            <div class="trust-desc">Local organizers who are students just like you — not strangers on the internet.</div>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">🏫</div>
+          <div>
+            <div class="trust-name">School-friendly schedule</div>
+            <div class="trust-desc">Structured day starting at 9 AM and wrapping by 5 PM — no overnight stays, no surprises.</div>
+          </div>
+        </div>
+      </div>
+      <div class="parents-cta">
+        <!-- ✏️ EDIT: contact email for parents -->
+        <p class="parents-cta-text"><strong>Still not convinced?</strong> Put your parents on a call with us — we'll explain everything honestly, answer any questions, no BS, no pressure.</p>
+        <a class="btn-email" href="mailto:amalapuram@blueprint.hackclub.com">✉ Email us for parents</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- ✏️ EDIT: footer text -->
+    <span class="footer-copy">© 2025 Build Guild · Hack Club. All rights reserved.</span>
+  </footer>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
